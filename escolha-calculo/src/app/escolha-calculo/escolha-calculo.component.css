@@ -13,7 +13,7 @@ section.result {
 }
 
 button.btnCalcMedia {
-    align-items: center;
+    margin-right : -45px
     background-color: #1CC95C;
     /* Green */
     border: none;
