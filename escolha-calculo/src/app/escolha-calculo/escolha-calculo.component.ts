@@ -47,7 +47,6 @@ export class EscolhaCalculoComponent implements OnInit {
     this.showMeVogal = false;
     this.showMeInverter = false;
     this.showMeFatorial = false;
-
   }
 
   toogleTagArea() {
@@ -138,8 +137,6 @@ export class EscolhaCalculoComponent implements OnInit {
 
   acharIndice() {
 
-
-
     var maior = 0;
     var menor = 0
 
@@ -156,7 +153,6 @@ export class EscolhaCalculoComponent implements OnInit {
     }
     alert('Índice de maior valor na posição : ' + maior)
     alert('Índice de menor valor na posição : ' + menor)
-
   }
 
   acharVogal() {
@@ -188,7 +184,6 @@ export class EscolhaCalculoComponent implements OnInit {
     alert('Palavra ao contrário : ' + this.novaPalavra);
 
     this.palavra = "";
-
   }
 
   fatorar() {
